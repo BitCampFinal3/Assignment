@@ -10,14 +10,15 @@ n = int(sys.stdin.readline())
 numbers=[]
 
 # N개의 수를 배열로 입력받기
-for num in numbers:
-    int(sys.stidin.realine())
+for _ in range(n):
+    num = int(sys.stdin.readline())
     numbers.append(num)
     
 # 오름차순으로 정렬
 numbers.sort()
 
-print(numbers)
+for num in numbers:
+    print(num)
 
 
 
