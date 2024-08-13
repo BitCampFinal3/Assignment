@@ -1,0 +1,24 @@
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class Main {
+   public static void main(String[] args) {
+	   Scanner sc = new Scanner(System.in);
+	   int n = sc.nextInt();
+	   sc.nextLine();
+	   String[] stArr = new String[n];
+	   
+	   for(int i = 0; i < stArr.length; i++) {
+		   stArr[i] = sc.nextLine();
+	   }
+	   Set<String> strSet = new HashSet<String>(Arrays.asList(stArr));
+	   stArr = strSet.toArray(new String[0]);
+	   Arrays.sort(stArr);
+	   Arrays.sort(stArr, (s1, s2) -> Integer.compare(s1.length(), s2.length()));
+	   for(int i = 0; i < stArr.length; i++) {
+		   System.out.println(stArr[i]);
+	   }
+   }
+}
