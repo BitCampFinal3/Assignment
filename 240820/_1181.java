@@ -10,6 +10,7 @@ public class _1181 {
 	
 	// 버퍼 에러를 방지하고자 예외 처리를 날려줘야 함
 	public static void main(String[] args) throws IOException {
+		
 		// 버퍼 호출
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
