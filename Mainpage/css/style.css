@@ -1,0 +1,182 @@
+/* 버튼 기본스타일 삭제 */
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+/* 리스트 기본스타일 삭제 */
+li {
+    list-style: none;
+}
+
+/* input 기본스타일 삭제 */
+input {
+   background: none;
+   border: none;
+   outline: none;
+}
+
+/* p태그 기본마진 제거*/
+p {
+    margin: 0;
+}
+
+/* placeholder 기본색상 검정*/
+input::placeholder {
+    color: black;
+}
+
+/* 미디어 쿼리 */
+@media screen and (max-width: 1023px) {
+    
+}
+
+/* 자주쓰는 */
+.bold {
+    font-weight: bold;
+}
+
+/* 헤더 */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 3vw;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+.navbar-menu.active {
+    display: block;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.navbar-searchBtn {
+    padding: 1vw;
+}
+
+.navbar-searchBtn:hover {
+    color: rgb(90, 90, 90);
+}
+
+.emergency-counseling {
+
+}
+
+.non-face-counseling {
+
+}
+
+.daily-self {
+
+}
+
+.daily-diary {
+
+}
+
+.manual {
+    
+}
+
+.navbar-toggleBtn {
+    padding: 1vw;
+    color: black;
+}
+
+.navbar-toggleBtn:hover {
+    color: rgb(90, 90, 90);
+}
+
+/* 메인 */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.default-div {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+}
+
+.back-btn-div{
+    padding: 2vw;
+    align-self: flex-start;
+}
+
+.back-btn:hover svg path {
+    stroke: rgb(90, 90, 90);
+}
+
+.select-btn {
+    background-color: #FFD651;
+    border-radius: 10px;
+    width: 20vw;
+    height: 6vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.id-div,.password-div {
+    background-color: rgb(230, 233, 233);
+    border-radius: 5px;
+    width: 41vw;
+    height: 5vw;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.text-default {
+    padding-left: 2vw;
+}
+
+.login-btn {
+    background-color: #FFD651;
+    border-radius: 10px;
+    width: 41vw;
+    height: 6vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-hover {
+    font-size: .6rem;
+}
+
+.sns-bar {
+    display: flex;
+    align-items: center;
+}
+
+.btn-hover:hover {
+    background-color: #f8cb37;
+}
+
+.sns-bar-text {
+    margin: .8rem;
+    font-size: 0.6rem;
+}
+
+.text-hover:hover {
+    color: rgb(105, 104, 104);
+}
+
+.naver-btn{
+    color: #f8cb37;
+}
+
+.naver-btn:hover svg rect{
+    filter: brightness(0.9);
+}
