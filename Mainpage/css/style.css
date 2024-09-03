@@ -104,8 +104,8 @@ input::placeholder {
 }
 
 .default-div {
-    margin-top: 1.5vw;
-    margin-bottom: 1.5vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 
 .back-btn-div{
@@ -118,34 +118,34 @@ input::placeholder {
 }
 
 .select-btn {
-    background-color: #FFD651;
+    background-color: #f0f0f0;
     border-radius: 10px;
-    width: 20vw;
-    height: 6vw;
+    width: 40vw;
+    height: 12vw;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 }
 
 .id-div,.password-div {
-    background-color: rgb(230, 233, 233);
-    border-radius: 5px;
-    width: 41vw;
-    height: 5vw;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    width: 80vw;
+    height: 12vw;
     box-sizing: border-box;
     display: flex;
     align-items: center;
 }
 
 .text-default {
-    padding-left: 2vw;
+    padding-left: 5vw;
 }
 
 .login-btn {
     background-color: #FFD651;
     border-radius: 10px;
-    width: 41vw;
-    height: 6vw;
+    width: 80vw;
+    height: 12vw;
     display: inline-flex;
     align-items: center;
     justify-content: center;
