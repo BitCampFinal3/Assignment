@@ -1,7 +1,7 @@
 /*header*/
 const searchBtn = document.querySelector('.navbar-searchBtn');
 const toggleBtn = document.querySelector('.navbar-toggleBtn');
-const menu = document.querySelector('.navbar-menu');
+const menu = document.querySelector('.cover-navbar-menu');
 
 toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('active');
