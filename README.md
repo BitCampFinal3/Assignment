@@ -1,6 +1,6 @@
 <div align=center>
 
-![header](https://capsule-render.vercel.app/api?type=Cylinder&color=timeGradient&height=100&section=header&text=Studies%20on%20Spring%20Boot&fontSize=30)
+![header](https://capsule-render.vercel.app/api?type=Cylinder&color=timeGradient&height=100&section=header&text=Studies%20on%20React&fontSize=30)
 <br><br>
 
 <h3>👋Hi there</h3>
@@ -20,6 +20,7 @@
 <h3>✏️Now Studying</h3>
 
 ![SpringBoot](https://img.shields.io/badge/SpringBoot-6DB33F?style=flat-square&logo=Spring&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black)
 <br><br>
 
 <h3>🎯Hits</h3>
